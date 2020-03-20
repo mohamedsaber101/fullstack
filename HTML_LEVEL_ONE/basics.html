@@ -6,20 +6,18 @@
   </head>
   <body>
     <!-- Creating a Form -->
-    <form >
-    <h1>Log In!</h1>
-    <h2>Please Input Your Data!</h2>
-    <!-- Input Declaration -->
-    <input type="email" name="useremail" value="">
-    <input type="password" name="userpassword" value="">
-    <input type="submit" name="" value="Submit!!">
-    <input type="color" name="" value="">
+    <!-- action refer to next page that takes INPUT  -->
+     <form action="https://www.google.com">
+      <p>Enter Email</p>
+       <input type="email" name="email" value="">
+       <input type="submit" name="" value="Submit!">
+     </form>
 
-    </form>
-
-     <h1>My Second Form </h1>
+     <!-- Second Form with placeholder and label way with REQUIRED-->
      <form >
-
+     <label for="myid">Enter Your ID:</label>
+     <input id="myid" type="text" name="" placeholder="Enter Your ID SIR" required>
+     <input type="submit" name="" value="Sub">
 
      </form>
   </body>

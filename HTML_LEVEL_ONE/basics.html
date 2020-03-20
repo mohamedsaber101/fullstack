@@ -5,20 +5,31 @@
     <title>Basics Title</title>
   </head>
   <body>
-    <!-- Creating a Form -->
-    <!-- action refer to next page that takes INPUT  -->
-     <form action="https://www.google.com">
-      <p>Enter Email</p>
-       <input type="email" name="email" value="">
-       <input type="submit" name="" value="Submit!">
-     </form>
+    <h1>Hotel Feedback</h1>
 
-     <!-- Second Form with placeholder and label way with REQUIRED-->
-     <form >
-     <label for="myid">Enter Your ID:</label>
-     <input id="myid" type="text" name="" placeholder="Enter Your ID SIR" required>
-     <input type="submit" name="" value="Sub">
+   <form method="get">
+     <h3>Are you Ins or Outs?</h3>
+     <label for="in">ins.. </label>
+     <!-- Two input same Nme to link to each other -->
+     <!-- Not to be selcted together -->
+     <input type="radio" id="in" name="inout" value="in" required>
+     <label for="out">out..</label>
+     <input type="radio" id="out" name="inout" value="out" required>
 
-     </form>
+      <h3>How was the service</h3>
+      <select  name="stars">
+        <option value="Great">3</option>
+        <option value="Good">2</option>
+        <option value="Not bad">1</option>
+
+      </select>
+      <h3>Any other feedback?</h3>
+      <!-- Text Ara Note it is not Input -->
+      <textarea name="mytext" rows="8" cols="80"></textarea>
+       <input type="submit" name="" value="Submit!!">
+
+   </form>
+
+
   </body>
 </html>

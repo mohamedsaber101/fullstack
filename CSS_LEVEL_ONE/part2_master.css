@@ -1,0 +1,20 @@
+body{
+  /* background: grey; */
+  background: url(https://image.shutterstock.com/image-photo/horizon-sea-260nw-532690237.jpg);
+}
+
+div{
+  background-color: blue;
+  border-color: orange;
+  border-width: 10px;
+  border-style: dashed;
+}
+
+p{
+  color: yellow;
+}
+
+span{
+  background-color: red;
+  color: black;
+}

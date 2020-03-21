@@ -5,30 +5,35 @@
     <title>Basics Title</title>
   </head>
   <body>
-    <h1>Hotel Feedback</h1>
+    <h1>Course Sign Up page</h1>
+  <form>
+    <p>Please Note that First name, last name, password, email are required</p>
+    <label for="names">First Name:</label>
+    <input id="names" type="text" name="FirstName" placeholder="Mohamed" required>
+    <label for="names">Last Name:</label>
+    <input id="names" type="text" name="LastName" placeholder="Saber" required>
+    <!-- Just pargraph empty tom linebreaks well -->
+    <p></p>
+    <label for="Cred">Email:</label>
+    <input id="Cred" type="email" name="Email"required >
+    <label for="Cred">Password:</label>
+    <input id="Cred" type="password" name="Password" required>
+    <p></p>
+    <p>Are you over 18?</p>
+    <label for="age">Yes:</label>
+    <input id="age" type="radio" name="Age" value="G" required>
+    <label for="age">No:</label>
+    <input id="age" type="radio" name="Age" value="L">
+    <p>Please choose the payment method!</p>
+    <label for="payment"></label>
+    <select id="payment" name="Payment">
+      <option value="Paypal">Paypal</option>
+      <option value="Credit">Credit</option>
+    </select>
+    <p></p>
+    <input type="submit" name="submit" value="Sign UP">
 
-   <form method="get">
-     <h3>Are you Ins or Outs?</h3>
-     <label for="in">ins.. </label>
-     <!-- Two input same Nme to link to each other -->
-     <!-- Not to be selcted together -->
-     <input type="radio" id="in" name="inout" value="in" required>
-     <label for="out">out..</label>
-     <input type="radio" id="out" name="inout" value="out" required>
-
-      <h3>How was the service</h3>
-      <select  name="stars">
-        <option value="Great">3</option>
-        <option value="Good">2</option>
-        <option value="Not bad">1</option>
-
-      </select>
-      <h3>Any other feedback?</h3>
-      <!-- Text Ara Note it is not Input -->
-      <textarea name="mytext" rows="8" cols="80"></textarea>
-       <input type="submit" name="" value="Submit!!">
-
-   </form>
+  </form>
 
 
   </body>

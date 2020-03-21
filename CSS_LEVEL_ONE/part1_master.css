@@ -1,0 +1,22 @@
+/* selected tag {
+  propert: value;
+} */
+
+h1{
+  color: blue;
+}
+
+/* RGB CODE Just google for "color picker" */
+li{
+  color: rgb(199,0,0);
+}
+
+/* Hex Code */
+p{
+  color: #089518;
+}
+
+/* RGBA RGB and A for transperancy between 0,1 */
+h4{
+color: rgba(255,97,0,0.3)
+}

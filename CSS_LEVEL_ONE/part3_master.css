@@ -1,0 +1,30 @@
+/* Define a class starts with . */
+.firstDiv{
+  color: blue;
+}
+
+.secondDiv{
+  color: red;
+}
+
+/* IDs definded by # */
+#myid1{
+  color: orange;
+  text-decoration: line-through;
+}
+/* Any ul that is next to h3 element */
+h3 + ul{
+  border: 4px purple double ;
+}
+
+/* anchor tag inside any list */
+li a{
+  color: red;
+}
+
+/* Specific anchor within a list */
+li a[href="https://facebook.com"]{
+  color: blue;
+  border: 5px solid orange;
+
+}

@@ -1,6 +1,8 @@
 h1{
   font-family: cursive;
   text-align: center;
+  /* Guided from Google Fonts */
+  font-family: 'Abel', sans-serif;
 }
 
 p{

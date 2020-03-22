@@ -1,43 +1,67 @@
-h2{
+.b0{
+  /* background: #355B5A; */
+  /* width: 95%; */
+  background: #0EF5EF;
+  margin: 0 0 0 0;
   text-align: center;
-  font-size: 12px;
-}
-#Inspired{
-  font-family: 'Sen', sans-serif;
-}
+  font-family: 'Baloo 2', cursive;
 
-#by{
-  font-family: 'Liu Jian Mao Cao', cursive;
+
 }
 
-.table{
+#b0p0{
+  background: #355B5A;
+  margin: 0 0 0 0;
+  height:  40px;
+}
 
-  width:50%;
-  margin: auto;
+.b1{
+  margin-left: 60px;
+  margin-right: 60px;
+  margin-top: 0px;
+  background: #355B5A;
+  margin-bottom: 200px;
+  color: white;
+
+}
+
+#b1h2-1{
+  margin-top: 0px;
+  font-size: 36px;
+}
+
+#dps{
+  padding: 40px 300px 40px 300px;
+}
+#fp{
+  margin: 0px 0px 0px 0px;
+}
+
+#i{
+  margin: 0px 0px 0px 0px;
+  border-width:  0px 0px 0px 0px;
+  padding: 0 0 0 0;
+}
+
+.d2{
+  height: 280px;
+  background: #355B5A;
+  margin-left: 60px;
+  margin-right: 60px;
+  color: white;
+}
+
+.d3{
+  margin-top: 25px;
+  background: #355B5A;
+  margin-bottom: 0px;
+  height: 400px;
+}
+
+#submit{
+  background: orange;
+  width: 100px;
   text-align: center;
-
-}
-
-.rows{
-  margin: auto;
-  width: 62.5;
-height: 250px;
-
-}
-#one{
-background: #7FF6BB;
-}
-
-#two{
-background: #53AFAD;
-}
-#three{
-background: #5378AF;
-
-}
-#four{
-background:  #A653AF;
-}
-#five{
-  background:  #94B536;
+  height: 50px;
+  
 }

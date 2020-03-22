@@ -1,0 +1,43 @@
+h2{
+  text-align: center;
+  font-size: 12px;
+}
+#Inspired{
+  font-family: 'Sen', sans-serif;
+}
+
+#by{
+  font-family: 'Liu Jian Mao Cao', cursive;
+}
+
+.table{
+
+  width:50%;
+  margin: auto;
+  text-align: center;
+
+}
+
+.rows{
+  margin: auto;
+  width: 62.5;
+height: 250px;
+
+}
+#one{
+background: #7FF6BB;
+}
+
+#two{
+background: #53AFAD;
+}
+#three{
+background: #5378AF;
+
+}
+#four{
+background:  #A653AF;
+}
+#five{
+  background:  #94B536;
+}
